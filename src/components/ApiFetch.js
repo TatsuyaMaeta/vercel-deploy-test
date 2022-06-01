@@ -15,6 +15,7 @@ const ApiFetch = () => {
     },[])
     return (
         <div>
+            <h2>沖縄料理屋をAPIで取ってきてみた</h2>
             <ul>
                 {posts.map((post) => (
                     <li> {post.name} </li>
